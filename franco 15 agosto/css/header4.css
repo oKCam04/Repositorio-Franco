@@ -1,0 +1,56 @@
+.header{
+    width: 100%;
+    height: 10vh;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #162b4E;
+    height: 10vh;
+}
+
+.logo{
+    color:white;
+    font-size: large;
+    padding: 4px;
+}
+
+.menu a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.bottom-bar{
+    background-color: beige;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    
+}
+.bottom-bar input{
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 2px;
+    border: 1px solid #0000;
+}
+.btn-login{
+    color: rgb(0, 0, 0);
+    background-color:grey;
+    margin-right:10px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 0px;
+    
+}
+.btn-signup{
+    color: white;
+    background-color: #51d1f6;
+    margin-right:10px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 0px;
+}

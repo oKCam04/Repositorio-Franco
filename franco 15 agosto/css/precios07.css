@@ -1,0 +1,58 @@
+.container{
+    
+    justify-content: center;
+    align-items: center;
+    
+    width: 60%;
+   
+}
+
+.texto{
+   
+    display: grid;
+    place-items: center;
+    
+}   
+
+.precio{
+   
+    display: flex;
+    justify-content: space-around;
+    height: 45vw;
+}
+
+.uno{
+    
+    width: 20%;
+    display: grid;
+    place-items: center;
+    
+}
+
+.dos{
+    
+    width: 20%;
+    display: grid;
+    place-items: center;
+}
+
+.tres{
+    background-color: gray;
+    width: 20%;
+    display: grid;
+    place-items: center;
+}
+button{
+    background-color: #1a66cc;
+    color: white;
+}
+.huno{
+    color: white;
+}
+.Pe{
+    color: white;
+}
+.Pe1{
+    color: white;
+    font-size: large;
+}
