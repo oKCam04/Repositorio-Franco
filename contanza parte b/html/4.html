@@ -8,23 +8,20 @@
 <body>
     <h2>User register</h2>
     <form action="">
-        <label >
-            <em>Nombre completo:</em>
-            <input type="text" name="username">
-        </label>
-        <br><br>
-        <label>
-            <em>Contraseña:</em>
-            <input type="password" name="password">
-        </label>
-        <br><br>
-        <label>
-            <em>Correo electrónico:</em>
-            <input type="email" name="email">
-        </label>
-        <br><br>
-        <button type="submit">register</button>
-    </form>
+        <form id="contactForm" onsubmit="return validateForm()">
+            <h2>Contacto</h2>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+        
 
     <script src="../js/validacion.js"></script>
 </body>
