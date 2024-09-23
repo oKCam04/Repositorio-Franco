@@ -1,0 +1,39 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(103, 18, 182);
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.contenedor{
+padding: 20px;
+}
+.imagenes{
+    display: flex;
+    justify-content: space-around;
+}
+.imagen{
+}
+.imagenes img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 300px;
+    height: 300px;
+    
+}
+
+@media (max-width: 800px) {
+    .imagenes{
+        display: grid;
+    }
+}

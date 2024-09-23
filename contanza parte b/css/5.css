@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(103, 18, 182);
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor{}
+
+.parte-arriba{
+    display: flex;
+}
+.parte-arriba img {
+    width: 300px;
+    height: 200px;
+}
+.uno{
+    display: grid;
+    justify-items: center;
+}
+.parte-abajo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.parte-abajo img{
+    width: 200px;
+    height: 200px;
+}
+.dos{
+    display: grid;
+    justify-items: center;
+}

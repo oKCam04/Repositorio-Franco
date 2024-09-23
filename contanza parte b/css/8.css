@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+header {
+    background-color: #8a2be2;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+button {
+    background-color: #8a2be2 ;
+}
+button:hover{
+    background-color: darkblue;
+}
